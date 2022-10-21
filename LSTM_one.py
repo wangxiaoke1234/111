@@ -7,7 +7,6 @@ import give_valid_test
 # device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 device = torch.device("cpu")
 
-
 def make_batch(train_path, word2number_dict, batch_size, n_step):
     all_input_batch = []
     all_target_batch = []
